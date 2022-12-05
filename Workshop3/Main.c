@@ -1,0 +1,3 @@
+void main(){
+	mainQn1();
+}
