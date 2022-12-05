@@ -1,5 +1,5 @@
-#include <stdio.h>
 
+//function to find the midpoint of the given coordinates
 void midpoint(int x1, int x2, int y1, int y2){
 	double xmid = (x1+x2)/2;
 	double ymid = (y1+y2)/2;

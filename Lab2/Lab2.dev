@@ -1,6 +1,6 @@
 [Project]
-FileName=Workshop2.dev
-Name=Workshop2
+FileName=Lab2.dev
+Name=Lab2
 Type=1
 Ver=2
 ObjFiles=
@@ -50,16 +50,6 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
-[Unit1]
-FileName=questionOne.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
 [Unit2]
 FileName=questionTwo.c
 CompileCpp=0
@@ -71,16 +61,6 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=main.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit4]
 FileName=questionThree.c
 CompileCpp=0
 Folder=
@@ -90,7 +70,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit5]
+[Unit4]
 FileName=questionFour.c
 CompileCpp=0
 Folder=
@@ -100,8 +80,38 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit6]
+[Unit5]
 FileName=questionFive.c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit6]
+FileName=questionSix.c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit7]
+FileName=questionSix.c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit1]
+FileName=questionOne.c
 CompileCpp=0
 Folder=
 Compile=1

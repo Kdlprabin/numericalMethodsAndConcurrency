@@ -1,5 +1,4 @@
-#include <stdio.h>
-
+//function to find the two greatest number among two provided numbers
 void greatestAmongTwo(int a, int b){
 	if(a < b){
 		printf("Enter %d is greatest.",b);

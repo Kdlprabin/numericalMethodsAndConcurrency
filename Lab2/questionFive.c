@@ -1,3 +1,6 @@
+#include <math.h>
+#include <stdio.h>
+
 //function to calculate any single unknown value in the velocity formula
 void velocityCalc(float v, float u, float a, float t){
 	if(isnan(v)){
@@ -15,7 +18,7 @@ void velocityCalc(float v, float u, float a, float t){
 	}
 }
 
-int mainFour(){
-	velocityCalc(NAN,5,4,3);	
+int main(){
+	velocityCalc(NAN,5,4,3);
 	return 0;
 }

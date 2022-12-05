@@ -1,6 +1,6 @@
 [Project]
-FileName=Workshop2.dev
-Name=Workshop2
+FileName=Tutorial3.dev
+Name=Tutorial3
 Type=1
 Ver=2
 ObjFiles=
@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=6
+UnitCount=4
 
 [VersionInfo]
 Major=1
@@ -51,26 +51,6 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=questionOne.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit2]
-FileName=questionTwo.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit3]
 FileName=main.c
 CompileCpp=0
 Folder=
@@ -80,7 +60,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit4]
+[Unit2]
 FileName=questionThree.c
 CompileCpp=0
 Folder=
@@ -90,8 +70,8 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit5]
-FileName=questionFour.c
+[Unit3]
+FileName=questionOne.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -100,8 +80,8 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit6]
-FileName=questionFive.c
+[Unit4]
+FileName=questionTwo.c
 CompileCpp=0
 Folder=
 Compile=1

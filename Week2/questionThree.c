@@ -1,5 +1,4 @@
-#include <stdio.h>
-
+//function to find the triangular numbers for the provided range
 void triangularNum(int n){
 	int sum,i;
 	for(i = 1; i <=n; i++){
