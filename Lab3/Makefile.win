@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = questionOne.o Main.o questionTwo.o questionThree.o questionFour.o
-LINKOBJ  = questionOne.o Main.o questionTwo.o questionThree.o questionFour.o
+OBJ      = questionOne.o Main.o questionTwo.o questionThree.o questionFour.o questionSix.o
+LINKOBJ  = questionOne.o Main.o questionTwo.o questionThree.o questionFour.o questionSix.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -38,3 +38,6 @@ questionThree.o: questionThree.c
 
 questionFour.o: questionFour.c
 	$(CC) -c questionFour.c -o questionFour.o $(CFLAGS)
+
+questionSix.o: questionSix.c
+	$(CC) -c questionSix.c -o questionSix.o $(CFLAGS)
