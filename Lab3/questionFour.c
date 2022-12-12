@@ -1,3 +1,3 @@
 void mainFour(){
-	int i,j
+	int i,j;
 }
