@@ -29,5 +29,5 @@ void anagram(char one[], char two[]){
 }  
 
 void mainTwo(){
-	anagram("dil","lid");
+	anagram("bab","aab");
 }
