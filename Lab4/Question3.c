@@ -18,7 +18,9 @@ void mainThree(){
 	*a = 1;
 	*b = 'A';
 	*c = 1.0;
+	
 	printf("The three stored values are %d %c %f",*a,*b,*c);
+	
 	free(a);
 	free(b);
 	free(c);

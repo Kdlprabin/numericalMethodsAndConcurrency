@@ -1,4 +1,4 @@
 int main(){
-	mainSix();
+	mainThree();
 	return 0;
 }
