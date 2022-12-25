@@ -27,7 +27,7 @@ void display_info(struct student *s, int n){
 	}
 }
 void mainOne(){
-	int n = 10;
+	int n = 2;
 	struct student s[n];
 	read_info(s,n);
 	display_info(s,n);
