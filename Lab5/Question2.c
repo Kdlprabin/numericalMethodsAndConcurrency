@@ -1,41 +1,37 @@
 #include <stdio.h>
 
-struct employee {
-  char name[50];
-  char post[50];
-  float salary;
+
+struct employee{
+	char name[10];
+	char post[10];
+	int salary;
 };
 
-struct employee get_employees(struct employee *e, int n) {
-  int i, count = 0;
-  struct employee result;
-  for (i = 0; i < n; i++) {
-    if (e[i].salary > 10000) {
-      result.name[count] = e[i].name;
-      result.post[count] = e[i].post;
-      result.salary[count]= e[i].salary;
-      count++;
-    }
-  }
-  return result;
+int filter(struct employee e){
+	if(e.salary>10000){
+		return 1;
+	}
 }
 
-void mainTwo() {
-  int i, n = 10;
-  struct employee e[10], result;
-
-  // Read the name, post, and salary of 10 employees
-  for (i = 0; i < n; i++) {
-    printf("Enter the name of employee %d: ", i + 1);
-    scanf("%s", e[i].name);
-    printf("Enter the post of employee %d: ", i + 1);
-    scanf("%s", e[i].post);
-    printf("Enter the salary of employee %d: ", i + 1);
-    scanf("%f", &e[i].salary);
-  }
-  result = get_employees(e,n);
-  for(i = 0; i < n; i++) {
-    printf("%s %s %f", result.name, result.post, result.salary);
-  }
+void mainTwo(){
+	int i;
+	struct employee e[4], e1[4];
+	for(i=0;i<4;i++){
+		printf("Employee %d\n", i+1);
+		printf("Enter your name: ");
+		scanf("%s", &e[i].name);
+		printf("Enter your post: ");
+		scanf("%s", &e[i].post);
+		printf("Enter your salary: ");
+		scanf("%d", &e[i].salary);
+	}
+	printf("The following are the employees details of the employee with salary more than 10000\n");
+	for(i=0;i<4;i++){
+		if(filter(e[i])==1){
+			e1[i] = e[i];
+			printf("Name: %s, Post: %s, Salary: %d \n", e1[i].name, e1[i].post, e1[i].salary);
+		} 
+	}
 }
+
 
