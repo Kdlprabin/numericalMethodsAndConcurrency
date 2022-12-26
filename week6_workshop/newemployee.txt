@@ -1,0 +1,19 @@
+Name : Prabin
+Age : 20
+Salary : 10000
+Name : Krishu
+Age : 20
+Salary : 10000
+Name : Pallavi
+Age : 18
+Salary : 5000
+Name : Bishnu
+Age : 37
+Salary : 20000
+Name : Pradeep
+Age : 47
+Salary : 50000
+For new employee information : 
+Name : Prabin
+Age : 20
+Salary : 200000
