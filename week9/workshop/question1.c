@@ -5,6 +5,7 @@ struct value{
 	int start;
 	int end;
 }s1,s2;
+
 void *printing(void *p){
 	struct value *data = (struct value*)p;
 	int i;

@@ -1,0 +1,17 @@
+Name: Prabin
+Age: 20
+Salary: 1000.000000
+
+Name: Prabin
+Age: 2
+Salary: 0.000000
+
+Name: Prabin
+Age: 22
+Salary: 100000.000000
+
+This is new employee information:
+Name: Samir
+Age: 21
+Name: 14700.000000
+
