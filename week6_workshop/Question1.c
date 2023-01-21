@@ -10,8 +10,8 @@ void question1(){
 	int i;
 	FILE *fp;
 	fp = fopen("employee.txt","w+");
-	struct employee e[5];
-	for(i = 0; i < 5; i++){
+	struct employee e[3];
+	for(i = 0; i < 3; i++){
 		printf("For employee %d : \n", i+1);
 		printf("Name : ");
 		scanf("%s",e[i].empName);
@@ -20,7 +20,7 @@ void question1(){
 		printf("Salary : ");
 		scanf("%d",&e[i].salary);
 	}
-	for(i = 0; i < 5; i++){
+	for(i = 0; i < 3; i++){
 		fprintf("For employee %d : \n", i+1);
 		fprintf(fp,"Name : %s\n",e[i].empName);
 		fprintf(fp,"Age : %d\n",e[i].age);
@@ -86,6 +86,6 @@ void question4(){
 }
 
 int  main(){
-	question4();
+	question1();
 	return 0;
 }
